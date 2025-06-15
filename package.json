@@ -1,0 +1,26 @@
+{
+  "name": "mywc",
+  "version": "1.0.0",
+  "description": "A custom implementation of the Unix wc command",
+  "main": "dist/src/index.js",
+  "bin": {
+    "mywc":"dist/bin/mywc.js"
+  },
+  "scripts": {
+  "start": "ts-node src/index.ts",
+  "test": "jest",
+  "build": "tsc",
+  "prepare": "npm run build"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.15.30",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
